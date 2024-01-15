@@ -17,7 +17,7 @@ function LatestProjects() {
             </Heading>
             <Text>{project.description}</Text>
             <Wrap mt={2} maxW={400}>
-              {project.technologies.map(skill => (
+              {project.technologies.map((skill) => (
                   <WrapItem key={skill}>
                       <Badge bg={skill}>{skill}</Badge>
                   </WrapItem>
