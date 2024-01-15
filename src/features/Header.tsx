@@ -19,7 +19,7 @@ function Header() {
         <HStack spacing={3}>
             <Image src={bubbleImg} h={10} />
             <Link 
-                href="mailto: ksdkf@gmail.com?subject=Contacting you from your portfolio" 
+                href="mailto: honggzb@gmail.com?subject=Contacting you from your portfolio" 
                 fontSize="large" fontWeight="bold">
                    {t("hireme")}
             </Link>
