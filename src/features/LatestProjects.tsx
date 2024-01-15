@@ -6,7 +6,7 @@ import Badge from "../components/Badge";
 
 function LatestProjects() {
 
-    const [projects, setProjects] = useState(FAKE_PROJECTS);
+    const projects = FAKE_PROJECTS;
 
     const renderProject = (project) => {
         return (<WrapItem flexDir={"column"} key={project.id}>
