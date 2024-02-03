@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 import { FAKE_PROJECTS } from './fake-projects.constant';
 import { Flex, Heading, Wrap, WrapItem, Box, Text } from '@chakra-ui/react';
 import ImageSlider from '../components/ImageSlider';
@@ -17,7 +17,7 @@ function LatestProjects() {
             </Heading>
             <Text>{project.description}</Text>
             <Wrap mt={2} maxW={400}>
-              {project.technologies.map((skill) => (
+              {project.technologies.map((skill: any) => (
                   <WrapItem key={skill}>
                       <Badge bg={skill}>{skill}</Badge>
                   </WrapItem>
